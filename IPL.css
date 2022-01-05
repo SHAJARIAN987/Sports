@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(lightblue, blue, lightgreen,green);
+    font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+    
+  }
+  
+  /* styling for navigation bar, menu items */
+  ul {
+   
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  /* navigation bar content - individual items - li */
+  ul li {
+    list-style: none;
+  }
+  /* navigation bar content - link text styling inside li - a */
+  ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    font-size: 0.875em;
+    text-decoration: none;
+    padding: 1em;
+    white-space: nowrap;
+    letter-spacing: 1px;
+  }
+  /* navigation bar content - link text styling inside
+  li - a with hover selector */
+  ul li a:hover {
+    border-bottom: 3px solid #fff;
+  }
+  
+  /* styling for banner image and text */
+  .header {
+    padding: 20px;
+    height: 100vh;
+    background: url("https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ec593cc431fb70007482137%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D1321%26cropX2%3D3300%26cropY1%3D114%26cropY2%3D2093") no-repeat  center;
+    background-size: cover;
+    position: relative;
+  }
+  .header h1 {
+    margin: 0;
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+    color: red;
+    margin-bottom: 20px;
+  }
+  .header .content {
+    position: relative;
+    top: 50%;
+    text-align: center;
+  }
